@@ -2,7 +2,7 @@
 import { spy } from 'sinon';
 import React from 'react';
 import { shallow } from 'enzyme';
-import Counter from '../../app/components/Counter';
+import Counter from '../../app/Сomponents/Counter';
 
 function setup() {
   const actions = {

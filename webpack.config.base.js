@@ -4,7 +4,6 @@
 
 import path from 'path';
 import webpack from 'webpack';
-import { dependencies as externals } from './app/package.json';
 
 export default {
   module: {
@@ -35,7 +34,5 @@ export default {
 
   plugins: [
     new webpack.NamedModulesPlugin(),
-  ],
-
-  externals: Object.keys(externals || {})
+  ]
 };
